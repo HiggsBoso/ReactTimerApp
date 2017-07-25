@@ -4,8 +4,13 @@ var Timer = React.createClass({
   render: function () {
     return (
       <div>
-        <p>Timer component</p>
+        <div className="row">
+          <div className="column large-4 medium-6 small-centered">
+            Timer component
+          </div>
+        </div>
       </div>
+
     );
   }
 });
